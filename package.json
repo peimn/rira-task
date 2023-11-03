@@ -1,0 +1,32 @@
+{
+  "name": "rira-task",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "latest",
+    "media-icons": "^1.0.0",
+    "mitt": "^3.0.1",
+    "multer": "latest",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "serve-index": "^1.9.1",
+    "vidstack": "^1.5.1",
+    "vue": "^3.3.4",
+    "vue-final-modal": "^4.4.5",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "sass": "^1.69.5",
+    "vite": "^4.4.5"
+  }
+}
